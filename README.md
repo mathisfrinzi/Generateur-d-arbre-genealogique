@@ -33,6 +33,12 @@ Supprimer la ligne de code :
 
     draw_centered_text(image,ETAGE_,(W-TAILLE_LOGO//2,TAILLE_LOGO//2),font='tahomabd.ttf',color = (0,0,0),font_size = TAILLE_LOGO//2)
 
+- Supprimer le logo Design :
+
+Supprimer la ligne de code : 
+
+    poser_image(logo_design,W-TAILLE_LOGO+10,H-TAILLE_LOGO+10,image)
+
 ## 3 - Adapter les images :
 Ajouter les images au format 4:5 dans le dossier images, pour les associer à un profil, il suffit de les renommer correctement. Par exemple pour l'ID 0, "0.png" devrait suffire. Le format des images doit être lisible par Python.
 
