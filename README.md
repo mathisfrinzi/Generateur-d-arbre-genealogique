@@ -19,6 +19,7 @@ Créer un fichier Google Sheets dont le format des données est similaire.
 Dans le fichier arbre-genealogique.py, il faut supprimer certaines parties si on ne veut pas les voir apparaître sur l'arbre : 
 
 - Suppression des dates (pas adaptées à un arbre généalogique plus classique) :
+  
 Supprimer la ligne de code :
 
     for date in range(mindate,maxdate+1):
@@ -26,8 +27,10 @@ Supprimer la ligne de code :
         draw_centered_text(image,str(date),(XDATE-50,cpty),color=(255,255,255), font_size = min(TAILLE_DATE//2,delta), font = 'impact.ttf')
         cpty += delta
 
--Supprimer le texte avec le nom de l'étage 
+- Supprimer le texte avec le nom de l'étage
+  
 Supprimer la ligne de code :     
+
     draw_centered_text(image,ETAGE_,(W-TAILLE_LOGO//2,TAILLE_LOGO//2),font='tahomabd.ttf',color = (0,0,0),font_size = TAILLE_LOGO//2)
 
 ## 3 - Adapter les images :
