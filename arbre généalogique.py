@@ -28,7 +28,6 @@ def fetch_sheet_as_csv(sheet_url):
     return data
 
 # URL de la feuille Google Sheets publiée en tant que CSV
-sheet_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQmeX1xZ8R50EPiGRLrXYoqdC2KBYGmxpzXRPvt3hp2za9nn02EvUEECU7aW4xeSmz1n6Yp6w0LbXKI/pub?gid=0&single=true&output=csv'
 sheet_url = 'https://docs.google.com/spreadsheets/d/1I_Yv4g2akyRJRcndJdzrrYfHrjwiCYxrtptrOJ95YhU/export?format=csv&gid=79602097'
 data_rel = fetch_sheet_as_csv(sheet_url)
 CLEF_REL = {}
@@ -686,3 +685,4 @@ for ETAGE_ in ASK:
 
     
     
+
