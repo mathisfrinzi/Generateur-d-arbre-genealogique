@@ -6,7 +6,9 @@ Les polices d'écriture : arial.ttf, bahnschrift.ttf, tahomabd.ttf.
 
 ## Notice d'installation :
 1 - Télécharger le fichier arbre-genealogique.py et le fichier Images.
+
 2 - Lancer le fichier arbre-genealogique.py et choisir les arbres à générer.
+
 3 - Les arbres générés au format PDF sont présents dans le dossier principal (pour des raisons d'anonymat, les photos ne sont pas générées).
 
 # Comment se réapproprier le programme :
