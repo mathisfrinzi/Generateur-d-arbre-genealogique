@@ -14,9 +14,13 @@ Les polices d'écriture : arial.ttf, bahnschrift.ttf, tahomabd.ttf.
 # Comment se réapproprier le programme :
 
 ## 1 - Adapter les données
-Créer un fichier Google Sheets dont le format des données est similaire. Puis remplacer la ligne de code qui récupère le google sheets : 
+Créer un fichier Google Sheets dont le format des données est similaire. Puis remplacer la ligne de code qui récupère le google sheets pour les profils : 
 
     sheet_url = 'https://docs.google.com/spreadsheets/d/1I_Yv4g2akyRJRcndJdzrrYfHrjwiCYxrtptrOJ95YhU/export?format=csv&gid=79602097'
+
+Et celle pour les relations : 
+
+    urlbis = 'https://docs.google.com/spreadsheets/d/1I_Yv4g2akyRJRcndJdzrrYfHrjwiCYxrtptrOJ95YhU/export?format=csv&gid=0'
 
 ## 2 - Adapter les graphismes.
 Dans le fichier arbre-genealogique.py, il faut supprimer certaines parties si on ne veut pas les voir apparaître sur l'arbre : 
