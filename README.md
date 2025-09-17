@@ -12,8 +12,11 @@ Les polices d'écriture : arial.ttf, bahnschrift.ttf, tahomabd.ttf.
 3 - Les arbres générés au format PDF sont présents dans le dossier principal (pour des raisons d'anonymat, les photos ne sont pas générées).
 
 # Comment se réapproprier le programme :
+
 ## 1 - Adapter les données
-Créer un fichier Google Sheets dont le format des données est similaire.
+Créer un fichier Google Sheets dont le format des données est similaire. Puis remplacer la ligne de code qui récupère le google sheets : 
+
+    sheet_url = 'https://docs.google.com/spreadsheets/d/1I_Yv4g2akyRJRcndJdzrrYfHrjwiCYxrtptrOJ95YhU/export?format=csv&gid=79602097'
 
 ## 2 - Adapter les graphismes.
 Dans le fichier arbre-genealogique.py, il faut supprimer certaines parties si on ne veut pas les voir apparaître sur l'arbre : 
