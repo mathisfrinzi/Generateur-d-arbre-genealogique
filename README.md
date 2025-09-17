@@ -1,5 +1,5 @@
 # Générateur d'arbre généalogique
-## Programme qui génère automatiquement un arbre représentant les relations de parrainage de Centrale Lyon.
+Programme qui génère automatiquement un arbre représentant les relations de parrainage de Centrale Lyon.
 
 ## Requis : 
 Les polices d'écriture : arial.ttf, bahnschrift.ttf, tahomabd.ttf.
